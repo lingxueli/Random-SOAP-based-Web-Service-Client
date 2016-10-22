@@ -8,3 +8,11 @@ On the client side, WSDL can be requested:
 curl http://localhost:8888/rs?wsdl
 On the client side, XML Schema can be requested:
 curl http://localhost:8888/rs?xsd=1
+
+
+
+To request from Asyn client:
+
+java -jar RandPublish2.jar
+curl http://localhost:9999/rs2?wsdl
+curl http://localhost:9999/rs2?xsd=1
